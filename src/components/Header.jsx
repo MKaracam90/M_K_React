@@ -10,8 +10,8 @@ export default function Header() {
             ReactQuest
           </h1>
           <p className="mt-4 text-base leading-7 text-slate-300 sm:text-lg">
-            Lerne React mit kurzen Erklärungen, kleinen Quizzen und klaren
-            Beispielen. Heute bauen wir die erste Version unseres Lernprodukts.
+            Lerne React mit kurzen Erklärungen, kleinen Quizzen und klaren Beispielen.
+            Heute bauen wir die erste Version unseres Lernprodukts.
           </p>
         </div>
 
@@ -22,12 +22,10 @@ export default function Header() {
           </div>
           <div className="rounded-2xl border border-white/10 bg-slate-900/60 px-4 py-3">
             <p className="text-sm text-slate-400">Heute</p>
-            <p className="font-semibold text-white">
-              UI, Komponenten, Mock-Daten
-            </p>
+            <p className="font-semibold text-white">UI, Komponenten, Mock-Daten</p>
           </div>
         </div>
       </div>
     </header>
-  );
+  )
 }
